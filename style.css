@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e), url('../images/people1.jpg'); */
+    background-color:#343456;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 15px 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+form{
+    max-width: 600px;
+    width: 75%;
+    margin: 0 auto; 
+    background: #5b5a69;
+    opacity: .95;
+    color: white;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+
+label,
+input{
+    display: block;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+input{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #404040;
+    padding: 10px;
+    font-size: 12px;
+}
+button{
+    padding: 8px 30px;
+    width: 50%;
+    margin: 10px 0;
+    background-color: #242496;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+.btn{
+    text-align: center;
+
+}

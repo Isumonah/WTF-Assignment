@@ -13,28 +13,38 @@ body{
     background-position: left center;
     background-blend-mode: overlay;
     padding: 15px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 80%;
+    max-width: 650px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     color: white;
     text-align: center;
-    margin: 10px 0;
     font-size: 40px;
     font-weight: 900;
 }
 
-
-
 form{
-    max-width: 600px;
-    width: 75%;
-    margin: 32px auto; 
+    margin: 20px auto; 
     background: #383476;
     opacity: .95;
     color: white;
     padding: 10px;
     z-index: 1;
     border-radius: 8px;
+    width: 100%;
 }
 
 
